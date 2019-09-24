@@ -16,7 +16,7 @@ public class Group {
             Student student=students[i];
             if (student instanceof ContractStudent){
                 ContractStudent cs=(ContractStudent) student;
-                System.out.println("Contact students is "+cs.getName()+", contract price: "+cs.getPriceContract());
+                System.out.println("Contract students is "+cs.getName()+", contract price: "+cs.getPriceContract());
             }
         }
     }
