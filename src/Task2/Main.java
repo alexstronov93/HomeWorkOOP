@@ -8,7 +8,7 @@ public class Main {
         State[] states = State.values();
         for (State state : states){
             System.out.println(state);
-        };
+        }
 
         Iron iron = new Iron(20.0);
         Water water = new Water(20.);
